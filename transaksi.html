@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>Form Transaksi - Toko Gitar</title>
+</head>
+<body bgcolor="#e0ffff">
+
+  <table border="1" width="100%" cellpadding="10">
+    <tr bgcolor="#00cccc">
+      <td colspan="2" align="center"><h1>📝 Formulir Transaksi Pembelian</h1></td>
+    </tr>
+    <tr bgcolor="#b2ffff">
+      <td colspan="2" align="center">
+        <a href="index.html">Produk</a> |
+        <a href="transaksi.html">Transaksi</a> |
+        <a href="tentang.html">Tentang Kami</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <form action="#" method="post">
+          <table align="center" cellpadding="5">
+            <tr>
+              <td>Nama Lengkap</td>
+              <td><input type="text" name="nama" required></td>
+            </tr>
+            <tr>
+              <td>Alamat</td>
+              <td><textarea name="alamat" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+              <td>No HP</td>
+              <td><input type="tel" name="hp"></td>
+            </tr>
+            <tr>
+              <td>Pilih Produk</td>
+              <td>
+                <select name="produk">
+                  <option value="akustik">Gitar Akustik</option>
+                  <option value="elektrik">Gitar Elektrik</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Jumlah</td>
+              <td><input type="number" name="jumlah" min="1"></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><input type="submit" value="Kirim Pesanan"></td>
+            </tr>
+          </table>
+        </form>
+      </td>
+    </tr>
+    <tr bgcolor="#00cccc">
+      <td colspan="2" align="center">&copy; 2025 Toko Gitar BLITZ</td>
+    </tr>
+  </table>
+
+</body>
+</html>
